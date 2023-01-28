@@ -1,0 +1,82 @@
+.LoadingTodo-container {
+	mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+}
+
+.LoadingTodo-item {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 24px;
+	border-radius: 12px;
+	/* box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.05); */
+	height: 72px;
+}
+
+/* .LoadingTodo-text {
+	margin: 24px 0px 24px 24px;
+	width: calc(100% - 120px);
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+} */
+
+/* .LoadingTodo-completeIcon,
+.LoadingTodo-deleteIcon {
+	border-radius: 50px;
+	height: 48px;
+	width: 48px;
+} */
+
+/* .LoadingTodo-completeIcon {
+	position: absolute;
+	left: 12px;
+}
+
+.LoadingTodo-deleteIcon {
+	position: absolute;
+	top: -24px;
+	right: 0;
+} */
+
+/* .LoadingTodo-container,
+.LoadingTodo-completeIcon,
+.LoadingTodo-deleteIcon {
+	background: linear-gradient(90deg, #f8fafe, #e4ebff);
+	background-size: 400% 400%;
+	animation: loadingAnimation 3s ease-in-out infinite;
+} */
+
+.LoadingTodo-item {
+	background: linear-gradient(90deg, #e4ebff, #e4ebff);
+	background-size: 100% 1000%;
+	animation: loading-skeleton 3s ease-in infinite;
+}
+.LoadingTodo-item:nth-child(2) {
+	animation-delay: 0.2s;
+}
+.LoadingTodo-item:nth-child(3) {
+	animation-delay: 0.4s;
+}
+
+@keyframes loadingAnimation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes loading-skeleton {
+	0%,
+	100% {
+		opacity: 100%;
+	}
+	50% {
+		opacity: 0%;
+	}
+}

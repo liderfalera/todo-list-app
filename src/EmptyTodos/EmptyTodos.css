@@ -1,0 +1,32 @@
+.emptySVG-container {
+	margin-top: 48px;
+	width: 100%;
+	/* border: 1px solid brown; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.empty-svg {
+	width: 320px;
+	height: fit-content;
+	/* border: 1px solid red; */
+}
+
+.empty-text {
+	font-family: "Poppins", sans-serif;
+	margin-top: 48px;
+	text-align: center;
+}
+.empty-text::before,
+.empty-text::after {
+	overflow: visible;
+	margin-left: 8px;
+	margin-right: 8px;
+	content: "·";
+	color: #f206fb;
+	font-size: 18px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	text-shadow: 0 0 0.2rem #f206fb;
+}

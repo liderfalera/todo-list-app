@@ -1,0 +1,19 @@
+header {
+	text-align: center;
+	margin-top: 48px;
+	/* border: 1px solid red; */
+}
+
+h1 {
+	font-size: 76px;
+	/* border: 1px solid red; */
+	margin: 0px;
+	font-family: "Inconsolata", monospace;
+	font-weight: 200;
+}
+
+header p {
+	font-family: "Inconsolata", monospace;
+	font-weight: 400;
+	font-size: 18px;
+}

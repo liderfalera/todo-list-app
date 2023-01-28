@@ -1,0 +1,15 @@
+ul {
+	margin: 0;
+	padding: 0 0 56px 0;
+	list-style: none;
+}
+
+.todoSection {
+	margin: 48px 24px 0px 24px;
+}
+
+.todoSection h4 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	color: #AFBDE3;
+}
