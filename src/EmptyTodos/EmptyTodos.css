@@ -1,5 +1,6 @@
 .emptySVG-container {
 	margin-top: 48px;
+	margin-left: -22px;
 	width: 100%;
 	/* border: 1px solid brown; */
 	display: flex;
@@ -8,7 +9,7 @@
 }
 
 .empty-svg {
-	width: 320px;
+	width: 260px;
 	height: fit-content;
 	/* border: 1px solid red; */
 }

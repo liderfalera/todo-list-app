@@ -1,4 +1,4 @@
-.errorSVG-container {
+.emptySearchResultSVG-container {
 	margin-top: 48px;
 	width: 100%;
 	/* border: 1px solid brown; */
@@ -7,19 +7,19 @@
 	align-items: center;
 }
 
-.error-svg {
-	width: 280px;
+.empty-search-result-svg {
+	width: 260px;
 	height: fit-content;
 	/* border: 1px solid red; */
 }
 
-.error-text {
+.empty-search-result-text {
 	font-family: "Poppins", sans-serif;
 	margin-top: 48px;
 	text-align: center;
 }
-.error-text::before,
-.error-text::after {
+.empty-search-result-text::before,
+.empty-search-result-text::after {
 	overflow: visible;
 	margin-left: 8px;
 	margin-right: 8px;

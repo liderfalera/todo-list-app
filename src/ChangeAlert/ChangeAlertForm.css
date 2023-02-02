@@ -1,0 +1,65 @@
+.syncModal-container {
+	width: 90%;
+	border: 1px solid white;
+	max-width: 300px;
+	background-color: #f8fafe;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+
+	font-family: "Poppins", sans-serif;
+
+	border-radius: 10px;
+	padding: 32px;
+}
+
+.syncModal-container .syncModalBody-text {
+	color: #1e1e1f;
+	font-size: 16px;
+}
+
+.syncSVG-container {
+	/* margin-top: 48px; */
+	/* margin-left: -22px; */
+	width: 100%;
+	/* border: 1px solid brown; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sync-svg {
+	width: 32px;
+	height: fit-content;
+	color: #f206fb;
+	/* border: 1px solid blue; */
+}
+
+.sync-text {
+	font-family: "Poppins", sans-serif;
+	margin-top: 8px;
+	text-align: center;
+	color: #f206fb;
+	font-size: 18px;
+	/* border: 1px solid green; */
+}
+
+.sync-button {
+	margin: 12px 8px 0px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 400;
+	width: 160px;
+	height: 48px;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	background: #0669f7;
+}
+
+.sync-button:hover {
+	box-shadow: 0px 0px 15px rgba(6, 105, 247, 0.25);
+}

@@ -1,9 +1,8 @@
 import React from "react";
 
-function testError() {
-	throw new Error("Exception error testing with typo");
-}
 function useLocalStorage(itemName, initialValue) {
+	const [sincronizedItem, setSincronizedItem] = React.useState(true);
+
 	const [error, setError] = React.useState(false);
 
 	const [loading, setLoading] = React.useState(true);
@@ -26,12 +25,13 @@ function useLocalStorage(itemName, initialValue) {
 
 				setItem(parsedItem);
 				setLoading(false);
+				setSincronizedItem(true);
 			} catch (error) {
 				setLoading(false);
 				setError(error);
 			}
 		}, 3000);
-	});
+	}, [sincronizedItem]);
 
 	const saveItem = (newItem) => {
 		try {
@@ -43,7 +43,12 @@ function useLocalStorage(itemName, initialValue) {
 		}
 	};
 
-	return { item, saveItem, loading, error };
+	const sincronizeItem = () => {
+		setLoading(true);
+		setSincronizedItem(false);
+	};
+
+	return { item, saveItem, loading, error, sincronizeItem };
 }
 
 export { useLocalStorage };

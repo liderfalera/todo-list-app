@@ -21,6 +21,10 @@
 }
 
 .TodoSearch:focus {
-	outline-color: #849EEB;
+	outline-color: #849eeb;
 	background: rgba(255, 255, 255, 0.7);
+}
+
+.TodoSearch:disabled {
+	cursor: progress;
 }

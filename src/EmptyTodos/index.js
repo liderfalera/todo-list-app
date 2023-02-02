@@ -1,6 +1,6 @@
 import React from "react";
 import "./EmptyTodos.css";
-import { ReactComponent as EmptySVG } from "./empty2.svg";
+import { ReactComponent as EmptySVG } from "./empty.svg";
 
 function EmptyTodos() {
 	return (
@@ -8,7 +8,7 @@ function EmptyTodos() {
 			<div className="emptySVG-container">
 				<EmptySVG className="empty-svg" />
 			</div>
-			<p className="empty-text">Ninguna actividad encontrada</p>
+			<p className="empty-text">¡Lista vacía! crea tu primera actividad.</p>
 		</>
 	);
 }
