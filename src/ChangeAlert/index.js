@@ -7,7 +7,8 @@ function ChangeAlert({ sincronize, setOpenModal }) {
 	const { show, toggleShow } = useStorageListener(sincronize);
 
 	const onHandleClick = () => {
-		toggleShow(false);
+
+		toggleShow();
 		setOpenModal(false);
 	};
 
