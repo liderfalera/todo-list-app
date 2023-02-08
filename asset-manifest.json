@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/todo-list-app/static/css/main.7a341fec.css",
-    "main.js": "/todo-list-app/static/js/main.f70b3054.js",
+    "main.js": "/todo-list-app/static/js/main.4b197099.js",
     "static/media/error.svg": "/todo-list-app/static/media/error.6ee5a356ee8905cf5f45a151a6feadcd.svg",
     "static/media/empty-search-result.svg": "/todo-list-app/static/media/empty-search-result.54c090fa6c153da506f161edb3a49ed7.svg",
     "static/media/empty.svg": "/todo-list-app/static/media/empty.545fa65a1fc61ecac60e4db3899f36f5.svg",
@@ -10,10 +10,10 @@
     "static/media/check.svg": "/todo-list-app/static/media/check.cc6f3a92bc7594617cbc757a88dcd687.svg",
     "static/media/syncSVG.svg": "/todo-list-app/static/media/syncSVG.7d42f9edc2eb7d22873e3e2affb0d4fb.svg",
     "main.7a341fec.css.map": "/todo-list-app/static/css/main.7a341fec.css.map",
-    "main.f70b3054.js.map": "/todo-list-app/static/js/main.f70b3054.js.map"
+    "main.4b197099.js.map": "/todo-list-app/static/js/main.4b197099.js.map"
   },
   "entrypoints": [
     "static/css/main.7a341fec.css",
-    "static/js/main.f70b3054.js"
+    "static/js/main.4b197099.js"
   ]
 }
