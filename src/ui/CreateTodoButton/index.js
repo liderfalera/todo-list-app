@@ -3,14 +3,14 @@ import "./CreateTodoButton.css";
 import { TodoForm } from "../TodoForm";
 
 function CreateTodoButton(props) {
-	const onClickButton = () => {
-		props.setOpenModal((prevState) => !prevState);
-	};
+	// const onClickButton = () => {
+	// 	props.setOpenModal((prevState) => !prevState);
+	// };
 
 	return (
 		<button
 			className="CreateTodoButton"
-			onClick={onClickButton}>
+			onClick={props.onClick}>
 			+
 		</button>
 	);

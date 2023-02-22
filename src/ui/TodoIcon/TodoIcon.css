@@ -19,6 +19,13 @@
 	fill: #afbde3;
 }
 
+.Icon-container--edit {
+	position: absolute;
+	/* top: -24px; */
+	right: 48px;
+	fill: #afbde3;
+}
+
 .Icon-svg {
 	width: 24px;
 	height: 24px;
@@ -33,5 +40,9 @@
 
 .Icon-container:hover .Icon-svg--delete {
 	fill: rgb(199, 97, 97);
+	fill: #ed48f3;
+}
+
+.Icon-container:hover .Icon-svg--edit {
 	fill: #ed48f3;
 }

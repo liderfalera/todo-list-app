@@ -7,7 +7,7 @@ form {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-
+	margin: auto;
 	font-family: "Poppins", sans-serif;
 
 	border-radius: 10px;
